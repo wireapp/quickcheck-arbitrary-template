@@ -15,9 +15,9 @@ extra-source-files:
 
 dependencies:
 - base >= 4 && < 5
-- QuickCheck  
+- QuickCheck
 - safe
-- template-haskell >= 2.11 && < 2.13
+- template-haskell >= 2.11 && < 2.15
 ghc-options:
 - -Wall
 #- -Werror
@@ -35,8 +35,8 @@ tests:
     source-dirs:
     - src
     - test
-    dependencies:    
+    dependencies:
     - tasty
     - tasty-golden
     - tasty-hunit
-    - tasty-quickcheck      
+    - tasty-quickcheck
